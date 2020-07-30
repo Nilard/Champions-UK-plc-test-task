@@ -4,3 +4,14 @@
  * @file
  * SUBTHEME theme file.
  */
+
+use Drupal\image\Entity\ImageStyle;
+
+/**
+ * Implements template_preprocess_field().
+ */
+function champions_preprocess_field(&$variables) {
+  if ($variables['entity_type'] == 'node' && $variables['field_name'] == 'field_page_hero_text') {
+    $variables['attributes']['style'] = 'background-image: url(' . file_url_transform_relative(ImageStyle::load('page_hero')->buildUrl($variables['element']['#object']->field_page_hero_image->entity->getFileUri())) . ');';
+  }
+}

@@ -1,19 +1,13 @@
 name: Champions
 type: theme
-description: 'Champions Bootstrap 4 subtheme'
+description: 'Champions subtheme based on Bootstrap 4 theme.'
 core: 8.x
-core_version_requirement: ^8 || ^9
-base theme: bootstrap4
-
-# Stylesheets.
+core_version_requirement: '^8 || ^9'
+'base theme': bootstrap4
 stylesheets-remove:
   - '@bootstrap4/css/style.css'
-
-# Libraries.
 libraries:
   - champions/global-styling
-
-# Regions.
 regions:
   header: Header
   nav_branding: 'Navigation branding region'
