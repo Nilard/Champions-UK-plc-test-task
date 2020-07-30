@@ -11,8 +11,8 @@ To implement this task I used SQLite database so please have the 'sqlite3' PHP e
 
 I included database and files into this repository for you to quick run the website. Usually such data shouldn't be included in a repository.
 
-Please run 'composer install' command after pulling the repository.
+Please run 'composer install' command after pulling the repository and 'drush cr' from the 'web/sites/default' directory.
 
-No other set up is required to run the website (in theory, if anything goes wrong please contact me by email nilard@gmail.com).
+No other actions after the set up is required to run the website (in theory, if anything goes wrong please contact me by email nilard@gmail.com).
 
 Thank you.
