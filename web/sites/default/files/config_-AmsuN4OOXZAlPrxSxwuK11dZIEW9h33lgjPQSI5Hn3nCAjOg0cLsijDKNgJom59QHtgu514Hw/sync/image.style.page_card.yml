@@ -1,0 +1,15 @@
+uuid: 4365f95c-1df3-4c57-a7ca-9d178653ab17
+langcode: en
+status: true
+dependencies: {  }
+name: page_card
+label: 'Page card'
+effects:
+  bdb10c75-7ab1-4521-ac8c-6a34c55ed0ce:
+    uuid: bdb10c75-7ab1-4521-ac8c-6a34c55ed0ce
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 460
+      height: 260
+      anchor: center-center

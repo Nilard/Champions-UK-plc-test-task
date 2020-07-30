@@ -1,0 +1,36 @@
+uuid: c3f6814a-83ac-4afa-b256-338e5d0bca6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_card.field_page_card_image
+    - field.field.paragraph.page_card.field_page_card_text
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.page_card
+  module:
+    - image
+    - text
+id: paragraph.page_card.default
+targetEntityType: paragraph
+bundle: page_card
+mode: default
+content:
+  field_page_card_image:
+    weight: 0
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_page_card_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

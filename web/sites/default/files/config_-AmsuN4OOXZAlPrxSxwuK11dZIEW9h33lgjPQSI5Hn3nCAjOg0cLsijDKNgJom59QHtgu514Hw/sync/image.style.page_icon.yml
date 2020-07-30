@@ -1,0 +1,35 @@
+uuid: c5751a32-d857-4470-976d-5a5f9a945745
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: page_icon
+label: 'Page icon'
+effects:
+  a625fc5d-e8e3-4513-b69e-bf3a5fc4678d:
+    uuid: a625fc5d-e8e3-4513-b69e-bf3a5fc4678d
+    id: image_effects_set_canvas
+    weight: -8
+    data:
+      canvas_size: exact
+      exact:
+        width: '170'
+        height: '170'
+        placement: center-center
+        x_offset: 0
+        y_offset: 0
+      relative:
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+      canvas_color: ''
+  f3b8cb01-12f4-47b4-8e41-870bf527a5c0:
+    uuid: f3b8cb01-12f4-47b4-8e41-870bf527a5c0
+    id: image_scale
+    weight: -9
+    data:
+      width: 120
+      height: 120
+      upscale: false

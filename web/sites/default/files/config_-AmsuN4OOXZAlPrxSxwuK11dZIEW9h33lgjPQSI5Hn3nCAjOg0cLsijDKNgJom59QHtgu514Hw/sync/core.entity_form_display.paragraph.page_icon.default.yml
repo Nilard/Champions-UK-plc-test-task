@@ -1,0 +1,36 @@
+uuid: 844a86ce-a390-4921-a5e1-68c615169440
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_icon.field_page_icon_image
+    - field.field.paragraph.page_icon.field_page_icon_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.page_icon
+  module:
+    - image
+    - text
+id: paragraph.page_icon.default
+targetEntityType: paragraph
+bundle: page_icon
+mode: default
+content:
+  field_page_icon_image:
+    weight: 0
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_page_icon_title:
+    weight: 1
+    settings:
+      rows: 1
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

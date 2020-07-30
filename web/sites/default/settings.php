@@ -800,4 +800,4 @@ $databases['default']['default'] = array (
   'driver' => 'sqlite',
 );
 
-$settings['config_sync_directory'] = 'sites/champions/files/config_-AmsuN4OOXZAlPrxSxwuK11dZIEW9h33lgjPQSI5Hn3nCAjOg0cLsijDKNgJom59QHtgu514Hw/sync';
+$settings['config_sync_directory'] = 'sites/default/files/config_-AmsuN4OOXZAlPrxSxwuK11dZIEW9h33lgjPQSI5Hn3nCAjOg0cLsijDKNgJom59QHtgu514Hw/sync';

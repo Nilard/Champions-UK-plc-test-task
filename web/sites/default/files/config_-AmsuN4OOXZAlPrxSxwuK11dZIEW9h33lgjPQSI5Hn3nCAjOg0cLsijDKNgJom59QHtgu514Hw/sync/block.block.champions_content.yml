@@ -1,0 +1,22 @@
+uuid: 7a99e2ef-4ff6-49c9-916a-e90be20b0c21
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - champions
+_core:
+  default_config_hash: aJ6ps0sJm9MtQffqINgRms1JaSQgjsg68REaPdN-BGk
+id: champions_content
+theme: champions
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

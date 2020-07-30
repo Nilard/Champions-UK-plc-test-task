@@ -1,0 +1,38 @@
+uuid: c9134871-124e-4539-a843-2ef50a74ebdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_page_icon_image
+    - paragraphs.paragraphs_type.page_icon
+  module:
+    - image
+id: paragraph.page_icon.field_page_icon_image
+field_name: field_page_icon_image
+entity_type: paragraph
+bundle: page_icon
+label: Icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: images
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '20 MB'
+  max_resolution: 1024x1024
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

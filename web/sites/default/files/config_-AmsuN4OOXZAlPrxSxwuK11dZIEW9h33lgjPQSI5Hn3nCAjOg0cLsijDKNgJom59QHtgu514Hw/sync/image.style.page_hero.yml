@@ -1,0 +1,7 @@
+uuid: e527eed8-e755-4204-ac62-cc8d40390e47
+langcode: en
+status: true
+dependencies: {  }
+name: page_hero
+label: 'Page hero'
+effects: {  }

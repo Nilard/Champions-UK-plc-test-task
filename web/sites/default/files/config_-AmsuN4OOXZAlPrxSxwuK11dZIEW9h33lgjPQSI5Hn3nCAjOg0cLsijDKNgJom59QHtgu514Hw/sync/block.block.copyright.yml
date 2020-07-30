@@ -1,0 +1,25 @@
+uuid: cfc06dcf-bec8-413b-9c46-78e0411357e9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9cf83374-55cb-4566-8013-ea10092a34e1'
+  module:
+    - block_content
+  theme:
+    - champions
+id: copyright
+theme: champions
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:9cf83374-55cb-4566-8013-ea10092a34e1'
+settings:
+  id: 'block_content:9cf83374-55cb-4566-8013-ea10092a34e1'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

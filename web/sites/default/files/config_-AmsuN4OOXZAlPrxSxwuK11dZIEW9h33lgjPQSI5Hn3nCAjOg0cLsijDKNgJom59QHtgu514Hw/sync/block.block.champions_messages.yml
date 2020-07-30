@@ -1,0 +1,22 @@
+uuid: 470f68eb-8a3d-4871-aade-f8e3d40115f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - champions
+_core:
+  default_config_hash: tZtWC6EKIYALVtpV4mPz79GsLZD6IFWb7Wk1B7Rd8Go
+id: champions_messages
+theme: champions
+region: content
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 2adfd49f-6554-4c60-a066-eaf46e3a2bf2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - champions
+_core:
+  default_config_hash: B4RbOEFqUHi5Wx38pRiZzYXo1hhKzCpF50HCAvpOYf4
+id: champions_breadcrumbs
+theme: champions
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

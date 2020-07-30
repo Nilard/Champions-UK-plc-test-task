@@ -1,0 +1,10 @@
+uuid: 3d84a267-d1f3-4e4f-b5b6-cd47590d93f6
+langcode: en
+status: true
+dependencies: {  }
+id: page_card
+label: Card
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

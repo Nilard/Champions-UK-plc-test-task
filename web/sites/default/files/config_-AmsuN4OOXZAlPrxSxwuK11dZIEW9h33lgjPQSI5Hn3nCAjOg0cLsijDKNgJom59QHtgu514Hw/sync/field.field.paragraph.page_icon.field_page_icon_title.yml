@@ -1,0 +1,21 @@
+uuid: 71bdef94-73c3-40fc-9c5a-416dadc23335
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_page_icon_title
+    - paragraphs.paragraphs_type.page_icon
+  module:
+    - text
+id: paragraph.page_icon.field_page_icon_title
+field_name: field_page_icon_title
+entity_type: paragraph
+bundle: page_icon
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

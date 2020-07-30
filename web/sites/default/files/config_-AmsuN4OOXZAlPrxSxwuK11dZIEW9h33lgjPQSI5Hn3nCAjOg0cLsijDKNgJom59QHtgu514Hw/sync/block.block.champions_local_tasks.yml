@@ -1,0 +1,22 @@
+uuid: 2cb8b981-a2a8-4962-8333-b4d58f0ee718
+langcode: en
+status: true
+dependencies:
+  theme:
+    - champions
+_core:
+  default_config_hash: IzSbK3zk-Gon9y7WLEWop15Wn__7LeKzBJIXqajlb00
+id: champions_local_tasks
+theme: champions
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

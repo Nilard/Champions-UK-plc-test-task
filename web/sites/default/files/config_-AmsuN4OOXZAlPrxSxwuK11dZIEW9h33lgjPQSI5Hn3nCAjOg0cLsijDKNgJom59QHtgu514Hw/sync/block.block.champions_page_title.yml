@@ -1,0 +1,27 @@
+uuid: 4dcbed67-d34d-48b5-b1bf-0e9e154e10d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - champions
+_core:
+  default_config_hash: _0ZyPKUqcQMu9FlcCoa_Y-No4zdv-wUNF4hlSj60yi0
+id: champions_page_title
+theme: champions
+region: content
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }
