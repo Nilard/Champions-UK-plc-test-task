@@ -5,7 +5,7 @@ You can see the completed task in action here: http://champions.ld.am
 You can log into the admin part using the following credentials:
 
 Username: admin
-Password: iVk9PQe3fEkwXbk
+Password: Pb3tLbtJXRFwTcj
 
 To implement this task I used SQLite database so please have the 'sqlite3' PHP extension to be installed on your environment where you're going to set up the website.
 
