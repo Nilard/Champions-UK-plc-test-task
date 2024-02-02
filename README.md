@@ -1,7 +1,5 @@
 # Champions UK plc test task
 
-You can see the completed task in action here: http://champions.ld.am
-
 You can log into the admin part using the following credentials:
 
 Username: admin
